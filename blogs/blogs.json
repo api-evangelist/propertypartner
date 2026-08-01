@@ -1,0 +1,14 @@
+{
+  "repo": "propertypartner",
+  "feeds": [
+    {
+      "source": "https://help.londonhouseexchange.com/",
+      "feed_url": "https://help.londonhouseexchange.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

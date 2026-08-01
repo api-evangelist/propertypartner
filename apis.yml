@@ -1,7 +1,30 @@
 aid: propertypartner
-name: propertypartner
-description: propertypartner is a company surfaced as a portfolio company of seedcamp and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/propertypartner.png
+name: London House Exchange (Property Partner)
+description: >-
+  London House Exchange, formerly Property Partner, is an FCA-regulated online
+  platform that operates the world's only regulated exchange for individual
+  residential, student and commercial properties. Founded in 2014 and now owned
+  by US digital homeownership company Better, the platform lets retail investors
+  buy fractional shares in professionally managed UK properties, earn monthly
+  dividends from rental income, and trade those shares with other investors on a
+  secondary market. It also offers property-backed mortgage bonds, an ISA, and
+  bridging finance, with over £100m of fractionalised property assets under
+  management and thousands of investors across more than 80 countries. It was
+  surfaced as a Seedcamp portfolio company and added to the API Evangelist
+  network. No public developer API, OpenAPI specification, or developer portal
+  was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/propertypartner/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Property
+- FinTech
+- Investment
+- Fractional Ownership
+- PropTech
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://propertypartner.co
+  url: https://www.londonhouseexchange.com/
+- type: About
+  url: https://www.londonhouseexchange.com/aboutus/ourstory
+- type: Support
+  url: https://help.londonhouseexchange.com/
+- type: HelpCenter
+  url: https://help.londonhouseexchange.com/
+- type: Blog
+  url: https://www.londonhouseexchange.com/blog
+- type: Login
+  url: https://www.londonhouseexchange.com/login
+- type: TermsOfService
+  url: https://help.londonhouseexchange.com/hc/en-us/articles/360003771873-Terms-of-Service
+- type: PrivacyPolicy
+  url: https://help.londonhouseexchange.com/hc/en-us/articles/360003747214-Privacy-Policy
+- type: DomainSecurity
+  url: security/propertypartner-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
